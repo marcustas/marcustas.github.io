@@ -7,11 +7,9 @@ body {
 	Sans-Serif; 
 	line-height: 24px; 
 	background-color: #e9f1f6;
-	/* url(images/noise.jpg); */
 }
 .clear { 
-	clear: 
-	both; 
+	clear: both; 
 }        
 #page-wrap { 
 	width: 800px; 
@@ -29,7 +27,7 @@ h1 {
 	font-size: 42px; 
 	font-weight: bold; 
 	letter-spacing: -2px; 
-	border-bottom: 1px solid #999; 
+	/*border-bottom: 1px solid #999;*/ 
 }
 h2 { 
 	font-size: 20px; 
@@ -93,10 +91,16 @@ dd.clear {
 	margin-right: 20px;
 	border-bottom: none;
 }
-#contacts {
+#name {
 	float: left;
 }
 .border {
 	border-bottom: 0px;
 }
-
+#contacts {
+	margin-top: 10px;
+}
+#top{
+	border-bottom: 1px solid #999;
+	padding-bottom: 45px;
+}
